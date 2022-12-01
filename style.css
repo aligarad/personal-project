@@ -3,13 +3,14 @@
 }
 .header{
     color:whitesmoke;
-    
+    padding-top: 20px;
     display:flex;
     justify-content:space-around;
 }
 
 .links{
     width:900px;
+    font-size: 35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,7 +38,7 @@ button{
     border:1px solid black;
     border-radius: 15px;
     background-color:grey;
-    width:600px;
+    width:500px;
     height: 300px;
     margin-right: 200px;
     display:flex;
@@ -45,6 +46,13 @@ button{
     align-items: center;
     }
 
+
+    .first{
+        display:flex;
+        justify-content:center ;
+    
+        align-items: center;
+    }
     .second{
         
         height:200px;
@@ -52,14 +60,25 @@ button{
         justify-content:center ;
         align-items: center;
     }
+
+    .third{
+        display:flex;
+        justify-content:center ;
+        align-items: center;
+    }
     
+    .fourth{
+        display:flex;
+        justify-content:center ;
+        align-items: center;
+    }
 
    .boxes{
     margin-bottom: 30px;
     display:flex;
     justify-content: center;
     align-items: center; 
-    gap:10px;
+    gap:70px;
     } 
 
     .motivation{
@@ -93,11 +112,26 @@ button{
         align-items: center;
     }
 
+    .parag2{
+        font-size: 30px;
+    }
+
     .footer{
-        background-color: #1F2937;
-        color:whitesmoke;
-        height:50px;
+        background-color: white;
+        color:black;
+        height:100px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+    }
+
+
+    .placeholder-image{
+        width:500px;
+        height:300px;
+    }
+
+    .lastp{
+        text-align: center;
+        font-size: 40px;
     }
